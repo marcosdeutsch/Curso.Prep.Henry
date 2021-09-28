@@ -1,0 +1,32 @@
+h1{
+    color:brown;
+}
+img{
+    
+    width: 200px;
+
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background: cornflowerblue;
+    padding: 50px;
+    border: crimson 2px;
+    margin: 0 auto;
+
+
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+body{
+    background-image: url("https://assets.soyhenry.com/henry-landing/assets/PrincipalSection/img.jpg");
+    margin: 0 auto ;
+    display: flexbox;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
