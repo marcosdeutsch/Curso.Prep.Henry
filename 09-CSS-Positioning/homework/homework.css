@@ -7,32 +7,104 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+text-align: center;
 }
-
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos{
+    display: none;
+}
 
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres{
+    position:absolute ;
+    top:100px;
+    left: 200px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
-
+#ejercicioCuatro{
+    position: fixed;
+    top:0px;
+    left:0px;
+    
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
-
+#ejercicioUno{
+    display: block;
+    text-align: center;
+}
+#ejercicioDos{
+    display:none;
+}
+#ejercicioTres{
+    position: absolute;
+    top:100px;
+    left:200px;    
+}
+#ejercicioCuatro{
+    
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+#ejercicioCinco{
+  display: flex;
+  align-items: center;   
+  flex-direction: row-reverse;
+  justify-content:space-around;
+}
 
 /* Ejercicio 6. */
+#ejercicioSiete{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#elementoUno{
+    background: chocolate;
+    display: flex;
+    align-self: flex-end;
+    
+}
+
+#elementoDos{
+    background:crimson;
+    display: flex;
+    
+}
+#elementoTres{
+    display: flex;
+    justify-content:right ;  
+    background-color: transparent;
+    background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");  
+    background-position:0px   ;
+    color: crimson;
+}
+#elementoTres:hover{
+    background-size: 100px;
+ 
+}
+#elementoCuatro{
+    background: rgb(48, 30, 210);
+    display: flex;
+    align-self: flex-start;
+    
+}
+
